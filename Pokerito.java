@@ -38,7 +38,8 @@ public class Pokerito {
             System.out.println(riverCard);
             if (riverCard.equals(playerCard)){
                 yourMatches += 1;
-            } else if (riverCard.equals(computerCard)) {
+            }
+            if (riverCard.equals(computerCard)) {
                 computerMatches += 1;
             }
         }
