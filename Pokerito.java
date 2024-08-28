@@ -15,7 +15,7 @@ public class Pokerito {
         
         System.out.println("• Ready? Press enter if you are.");
 
-        String readyCheck = scan.nextLine();
+        scan.nextLine();
 
         System.out.println("Here's your card:");
         String playerCard = randomCard();
@@ -32,7 +32,7 @@ public class Pokerito {
         int computerMatches =0;
 
         for (int i = 1; i < 6; i++) {
-            String nextCard = scan.nextLine();
+            scan.nextLine();
             System.out.println("Card " + i);
             String swimLaneCard = randomCard();
             System.out.println(swimLaneCard);
