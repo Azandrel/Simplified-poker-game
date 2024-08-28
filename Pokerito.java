@@ -34,11 +34,11 @@ public class Pokerito {
         for (int i = 1; i < 6; i++) {
             scan.nextLine();
             System.out.println("Card " + i);
-            String swimLaneCard = randomCard();
-            System.out.println(swimLaneCard);
-            if (swimLaneCard.equals(playerCard)){
+            String riverCard = randomCard();
+            System.out.println(riverCard);
+            if (riverCard.equals(playerCard)){
                 yourMatches += 1;
-            } else if (swimLaneCard.equals(computerCard)) {
+            } else if (riverCard.equals(computerCard)) {
                 computerMatches += 1;
             }
         }
